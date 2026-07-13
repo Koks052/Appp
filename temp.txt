@@ -1,0 +1,8 @@
+    Box(modifier = Modifier.fillMaxSize()) {
+        SpaceBackground()
+
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            contentPadding = PaddingValues(16.dp),
+            verticalArrangement = Arrangement.spacedBy(20.dp)
